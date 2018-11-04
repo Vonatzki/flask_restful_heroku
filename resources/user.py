@@ -4,7 +4,6 @@ from flask_jwt import jwt_required
 from models.user import UserModel
 
 from config.meta import DATABASE_PATH
-from config.db_orm import connect_to_database
 
 class UserRegister(Resource):
 

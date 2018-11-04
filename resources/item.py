@@ -2,7 +2,6 @@ from flask_restful import Resource, reqparse
 from flask_jwt import jwt_required
 
 from config.meta import DATABASE_PATH
-from config.db_orm import connect_to_database
 from models.item import ItemModel
 
 class Item(Resource):
